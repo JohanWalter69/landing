@@ -1,0 +1,30 @@
+/* Your button CSS file */
+
+.buttons{
+  font-weight: 1000;
+}
+
+.banner .btn-yours {
+  background-color: #2a4b5f;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 16px 32px;
+  color: #FFFFFF;
+  transition: .2s ease-in-out 0s;
+  width: fit-content;
+  font-size: 32px;
+  margin: 16px;
+}
+
+.btn-yours:hover {
+  transition: 1s ease;
+  background-color: #39637d;
+}
+
+.btn-yours:active{
+  transition: 1s ease;
+  background: black;
+  box-shadow: 2px 2px 5px #C8DBBE;
+  rotate: 180deg;
+  color: #61764B;
+}

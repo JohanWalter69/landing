@@ -1,0 +1,32 @@
+.banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 800px;
+  background-image: url('../../images/mountain_img.jpg');
+  background-size: cover;
+  object-fit: cover;
+  color: white;
+  width: 100%;
+}
+
+.banner h1, .banner p {
+  text-shadow: 2px 2px 1px black;
+}
+
+.banner h1 {
+  font-size: 54px;
+}
+
+.banner > div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 10%;
+  align-items: center;
+  font-weight: 900;
+}
+
+.banner > h2 {
+  padding: 40px;
+}
